@@ -1,0 +1,217 @@
+body {
+    margin-left: 60px;
+    margin-right: 20px;
+    font-family: serif;
+}
+
+img {
+    width: 100%;
+}
+/* these are the changes in the html */
+
+
+/*-----header-----*/
+
+#main-header {
+    margin-top: 60px;
+}
+
+#logo img {
+    max-width: 210px;
+}
+
+#site-title {
+    margin-bottom: 0;
+}
+
+#site-title a {
+    font-size: 1.8rem;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.25;
+    font-family: sans-serif;
+}
+
+#site-title a:hover {
+    color: #dc6520;
+}
+
+#about-site {
+    color: #3c5349;
+    margin-top: 5px;
+}
+
+#header-image-container {
+    margin-top: 50px;
+}
+
+
+/*-----main-----*/
+
+#content {
+    margin-top: 80px;
+}
+
+main {
+    width: 70%;
+    display: inline-block;
+}
+
+#blog-header {
+    margin-bottom: 50px;
+}
+
+#blog-header h1 {
+    font-size: 3.2rem;
+    color: #13222c;
+    font-family: sans-serif;
+}
+
+
+
+/*-----views-----*/
+
+#views {
+    margin-bottom: 3px;
+}
+
+#views img {
+    margin-left: 2px;
+    width: 18px;
+    margin-bottom: -2px;
+}
+
+#views span {
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+
+
+/*-----blog content-----*/
+
+#blog-content {
+    display: inline-block;
+    margin-left: 90px;
+    font-size: 1.1rem;
+    word-spacing: 1px;
+    line-height: 1.4;
+    width: 70%;
+}
+
+#blog-content h4.h-style {
+    margin-bottom: 0;
+}
+
+#blog-content ol li p {
+    margin-top: 10px;
+}
+
+#blog-content .sources a {
+    text-decoration: none;
+}
+
+#blog-content .sources a:hover {
+    color: #000000;
+}
+
+
+/*Author section*/
+/*-----aside-----*/
+
+aside {
+    display: inline-block;
+    margin-top:50px;
+    vertical-align: top;
+    margin-left: 3%;
+    width: 26%;
+}
+
+.widget {
+    border-top: 4px solid black;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.widget a {
+    color: #dc6520;
+}
+
+.widget a:hover {
+    color: #1a1a1a;
+}
+
+.widget .widget-title {
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    font-size: 1.1rem;
+    word-spacing: 0.1rem;
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+    padding: 4px 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #d1d1d1;
+    color: #686868;
+    display: block;
+    line-height: 1.6;
+    font-size: 1.05rem;
+    color: #000000;
+    width:90%;
+}
+
+button[type="submit"] {
+    background-color: #1a1a1a;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+    padding: 12px 18px;
+}
+
+button[type="submit"]:hover {
+    background-color: #dc6520;    
+}
+
+.sub-btn{
+    margin-bottom: 30px;
+}
+#search input{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right:-10px; 
+    height:43px;
+    width:80%;
+}
+
+#search img{
+    display: inline-block;
+    height:10px;
+}
+.widget h4{
+    letter-spacing: 0.05rem;
+    font-size: 1.1rem;
+    word-spacing: 0.1rem;
+}
+
+.widget li{
+    color:#dc6520;
+}
+
+
+#author-container{
+    display:inline-block;
+    vertical-align: top;
+}
+
+#author-container img{
+    width:60px;
+    margin-top: 35px;
+    border-radius: 70px;
+    margin-left: -10px;
+}
