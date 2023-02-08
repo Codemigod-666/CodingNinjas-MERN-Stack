@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Five tips for front-end web development </title>
     <link rel="stylesheet" href="stylesheet.css">
-    <script src="script.js"></script>
+    <title> Five tips for front-end web development </title>
 </head>
 <body>
 
@@ -21,7 +20,7 @@
     </header>
 
     <div id="content">
-        
+
         <main>
 
             <header id="blog-header">
@@ -29,10 +28,10 @@
             </header>
 
             <div id="author-container">
-                <img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000011_1549316247_author-pic.png" alt="image"> 
-                
-                <p>Kannumittal</p>
-                <p>Web Development</p>
+                <img id="author-img" src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000011_1549316247_author-pic.png" alt="author">
+                <span id="author-name"> <a href="http://blog.codingninjas.in/author/kannumittal/">kannumittal</a></span>
+                    <span class="author-topic"> &ensp; / &ensp;</span>
+                    <span id="author-topic"><a href="http://blog.codingninjas.in/category/web-development/">Web Development</a></span>
             </div>
 
             <article id="blog-content">
@@ -44,6 +43,7 @@
                         <span><b>1,137</b></span>
                     </div>
                     <img src="https://ninjasfiles.s3.amazonaws.com/0000000000001540.jpg" alt="best coding practices">
+                    
                 </div>
 
                 <p>
@@ -129,44 +129,79 @@
             </section>
 
             <section id="search" class="widget">
-                <input type="search" placeholder="Search...">
-                <button type="submit" id="searchbutton"><img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000013_1549319004_search-icon.png" alt=""></button>
+                <form action="">
+                    <input type="text" placeholder="Search..."/>
+                    <button type="submit"><img src="https://ninjasfiles.s3.amazonaws.com/asset_0000000000000013_1549319004_search-icon.png"></button>
+                </form>
             </section>
 
             <section id="recent-posts" class="widget">
-                <h4>RECENT POSTS</h4>
-                <UL type="disc">
-                    <LI>Guiding path for a fresh to start their career in software programming/development</LI>
-                    <li>The undisputed truth about emotional support animal rhode island that the experts don't want you to hear</li>
-                    <li>The Best Plan to use for Emotional Support Animal Oregon</li>
-                    <li>Hot to find Emotional Support Animal Illiios Online</li>
-                    <li>Career pooprtunities after masterting Python</li>
-                </UL>
+                <h4 class="widget-title">Recent Posts</h4>
+                <ul>
+                    <li>
+                        <p><a href="">Guiding path for a fresher to starat their career in software programming/development</a></p>
+                    </li>
+                    <li><a href="">The undisputed truth about emotional support animal rhode island that the experts don't want you to hear</a></li>
+                    <li><a href="">The Best Plan to use for Emotional Support Animal Oregon</a></li>
+                    <li><a href="">How to find the Emotional Support Animal Illiios Online</a></li>
+                    <li><a href="">Career opportunities after mastering Python</a></li>
+                </ul>
+
             </section>
 
             <section id="recent-comments" class="widget">
-                <h4>RECENT COMMENTS</h4>
-                <ul type="disc">
-                    <li>A V YOGESH RAO on Get ready for the ultimate summer scholarship test!</li>
-                    <li>STRONY INTERNETOWE on Recursion(The good, the bad and the not so ugly)</li>
-                    <li>PHILIP HERB on Recursion(The good, the bad and the not so ugly)</li>
-                    <li>PASCHER VIGRA on Recursion(The good, the bad and the not so ugly)</li>
-                    <li>ANANYA BURMAN on Code your way through Competitive programming!</li>
+                <h4 class="widget-title">Recent Comments</h4>
+                <ul>
+                    <li><p>
+                        <a href="" class="name">A V Yogesh Rao</a>
+                        <span>on</span>
+                        <a href="">Get ready for the ultimate summer scholarship test!</a>
+                    </p></li>
+                    
+                    <li>
+                        <p>
+                            <a href="" class="name">strony Internetowe</a>
+                            <span>on</span>
+                            <a href="">Recursion(The good, the bad and the not so ugly)</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="" class="name">Philip Herb</a>
+                            <span>on</span>
+                            <a href="">Recursioin(The  good, the bad and the not so ugly)</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="" class="name">Pascher Vigra</a>
+                            <span>on</span>
+                            <a href="">Recursion(The good, the bad and the not so ugly)</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="" class="name">Ananya Burman</a>
+                            <span>on</span>
+                            <a href="">Code your way through Competitive Programming!</a>
+                        </p>
+                    </li>
                 </ul>
             </section>
 
             <section id="categories" class="widget">
+                <h4 class="widget-title">Categories</h4>
+                <ul>
+                    <li><a href="">Android</a></li>
+                    <li><a href="">General</a></li>
+                    <li><a href="">Intersvies Experiences</a></li>
+                    <li><a href="">Machine Learning</a></li>
+                    <li><a href="">Ruby</a></li>
+                    <li><a href="">Uncategorized</a></li>
+                    <li><a href="">Web Development</a></li>
+                    
 
-            <h4>CATEGORIES</h4>
-            <ul type="disc">
-                <li>Andriod</li>
-                <li>General</li>
-                <li>Interview Experiences</li>
-                <li>Machine Learning</li>
-                <li>Ruby</li>
-                <li>Uncategorized</li>
-                <li>Web Development</li>
-            </ul>
+                </ul>
             </section>
 
         </aside>
