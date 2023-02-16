@@ -320,6 +320,7 @@ section:nth-child(2n+1){
 
 .info-form button {
 	/* background-image: linear-gradient(to top right, blue, purple); */
+	overflow:hidden;
 	font-size : 90%;
 	border : 3px solid white;
 	color:white;
