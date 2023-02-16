@@ -6,6 +6,7 @@ body{
 #body-header{
 	height: 65vh;
 	background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+	opacity: 0.8;
 	background-size:cover;
 	background-position:center;
 	background-attachment: fixed;
@@ -130,6 +131,7 @@ section:nth-child(2n+1){
 }
 #about p{
 	padding:10px;
+	padding-top : 50px;
 	width:70%;
 	height:100%;
 	margin: auto;
@@ -275,4 +277,65 @@ section:nth-child(2n+1){
 .fifty-percent {
     height: inherit;
     width: 50%;
+}
+/* CONTACT SECTION */
+
+.contact-heading span{
+	color:white;
+}
+#contact {
+	
+	background-image: linear-gradient(to top right, #2857a4, #403066);
+	background-attachment: fixed;
+	padding-bottom: 100px;
+
+}
+ 
+#contact {
+	display:flex;
+	flex-wrap :wrap;
+}
+
+
+.info-form {
+	display: inline-block;
+	width:45%;
+	height: auto;
+	vertical-align: top;
+}
+
+
+
+.info-form input , button{
+	font-size: 20px;
+	display: block;
+	background: none;
+	width:80%;
+	padding: 10px 10px 10px 10px ;
+	margin: auto;
+	margin-bottom : 25px;
+	border: hidden;	
+	border-bottom: 2px solid white;
+}
+
+.info-form button {
+	/* background-image: linear-gradient(to top right, blue, purple); */
+	font-size : 90%;
+	border : 3px solid white;
+	color:white;
+	font-weight: 900;
+	width: 30%;
+}
+
+.info-me {
+	display: inline-block;
+	line-height: 20px;
+	width: 45%;
+}
+.info-me span{
+	line-height: 2rem;
+	margin-bottom : 2rem;
+}
+.color-white {
+	color:white;
 }
