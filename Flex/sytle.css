@@ -1,0 +1,33 @@
+#container {
+    width: 70vw;
+    height:70vh;
+    background-color: cyan;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#container div{
+    height:20px;
+    width: 50px;
+}
+
+/* #div1{
+    background-color:darkred;
+    order:20;
+}
+#div2{
+    background-color: darkgrey;
+    order:14;
+}
+#div3{
+    background-color:green  ;
+    order:31;
+}
+#div4{
+    background-color: darkcyan;
+    order:6;
+} */
+
+#container div :nth-child(2n+1 ) {
+    background-color: red;
+}
