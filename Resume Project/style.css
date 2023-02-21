@@ -340,3 +340,203 @@ section:nth-child(2n+1){
 .color-white {
 	color:white;
 }
+
+/* WORK EXPERIENCE */
+
+.timeline{
+	position: relative;
+	width:75%;
+}
+
+.timeline-box{
+	padding:5px;
+	width:40%;
+	min-height: 150px;
+	position: relative;
+	left:5%;
+	text-align:right;
+}
+
+.timeline-box::after{
+	content: '';
+	position: absolute;
+	width:15px;
+	height: 15px;
+	background-color: lightgrey;
+	top:25%;
+	border-radius: 50%;
+	z-index:1;
+}
+
+.timeline-box:nth-child(2n) {
+	left:53%;
+}
+
+.timeline-box:nth-child(2n+1)::after{
+	right:-11.8%;
+}
+.timeline-box:nth-child(2n)::after {
+	left:-9%;
+}
+
+.timeline-container {
+	padding:8px;
+}
+
+.timeline-logo{
+	position: absolute;
+	width: 50px;
+	overflow:hidden;
+}
+.timeline-logo >img {
+	width: 100%;
+}
+
+#timeline-divider {
+	position:absolute;
+	width:0;
+	top:10%;
+	left:50%;
+	border:1px dashed #0096fa6b;
+	height:66%;
+	color:#433e3f;
+}
+
+#timeline-divider .timeline-traveller{
+	position:sticky;
+	top:135px;
+	z-index :2;
+}
+
+#timeline-divider i{
+	transform : rotate(90deg);
+	margin-top:-35px;
+	display: block;
+	color:#2857a4
+}
+
+.experience-designation {
+	color:#2857a4;
+	font-size:1.4rem;
+}
+
+.experience-company-name {
+	margin:5px 0 0;
+	color:#eb833d;
+	font-weight: 400;
+	font-size:1.2rem;
+}
+
+.experience-duration {
+	color: #9e9b9b;
+	font-weight: 100;
+	color:grey;
+	font-size: 1rem;
+}
+
+.experience-description {
+	font-size: 14px;
+	padding:2px;
+	color:grey;
+	line-height:20px;
+}
+
+.text-align-justify{
+	text-align: justify;
+}
+
+
+
+/* EDUCATION SECTION */
+
+.education-container {
+	position: relative;
+	width: 75%;
+}
+
+.education-box{
+	padding:5px;
+	width:40%;
+	min-height: 150px;
+	position: relative;
+	left:5%;
+	text-align:right;
+	/* border:1px solid black; */
+}
+
+.education-box::after{
+	content:'';
+	width:15px;
+	height:15px;
+	position:absolute;
+	background-color: lightgrey;
+	border-radius: 50%;
+	top:25%;
+	z-index: 2;
+}
+.education-box:nth-child(2n){
+	left:53%;
+}
+.education-box:nth-child(2n+1)::after{
+	right: -11.8%;
+}
+.education-box:nth-child(2n)::after{
+	left:-9%;
+}
+
+.education-logo{
+	position: absolute;
+	width:50px;
+	overflow:hidden;
+}
+.education-box img{
+	width: 100%;
+}
+
+#education-divider{
+
+	top:25%;
+	width:0;
+	height:50px;
+	border:1px dashed #2857a4
+
+}
+#education-divider .education-traveller {
+	position:sticky;
+	top:135px;
+	z-index: 2;
+}
+
+#education-divider i{
+	z-index: 1;
+	transform : rotate(90deg);
+	margin-top:-35px;
+	display: block;
+	color:#2857a4
+}
+
+.degree{
+	color:#2857a4;
+	font-size: 1.4rem;
+}
+
+.degree-college-name{
+	margin:5px 0 0;
+	color:#eb833d;
+	font-weight: 400;
+	font-size:1.2rem;
+}
+
+.degree-duration {
+	color: #9e9b9b;
+	font-weight: 100;
+	color:grey;
+	font-size: 1rem;
+}
+
+.degree-discription{
+	font-size: 14px;
+	padding:2px;
+	color:grey;
+	line-height:20px;
+}
