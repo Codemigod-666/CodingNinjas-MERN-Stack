@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ninja Studio - Music Player</title>
+    <meta content="" name="Ninja Studio's Music Player is a modern, classic and easy to use Web Music Player with interactive UI" />
+    <meta name="description" content="Ninja Studio's Music Player is a modern, classic and easy to use Web Music Player with interactive UI" />
+    <meta name="keywords" content="Ninja, Studio, NinjaStudio, Music, Player" />
+	
+    <meta property="og:title" content="Ninja Studio - Music Player" />
+    <meta property="og:description" content="Ninja Studio's Music Player is a modern, classic and easy to use Web Music Player with interactive UI" />
+    <meta property="og:locale" content="en_IN" />
+    <meta
+      property="og:image"
+      content="/logo.png"
+    />
+	
+    <meta name="twitter:title" content="Ninja Studio - Music Player" />
+    <meta name="twitter:description" content="Ninja Studio's Music Player is a modern, classic and easy to use Web Music Player with interactive UI" />
+    <meta
+      name="twitter:image"
+      content="/logo.png"
+    />
+
+    <meta charset="UTF-8">
+    <!-- set viewport meta property -->
+    <meta name="viewport" content="Width=device-width, initial-scale=1.0">
+
+    <!-- linking the css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- use the below to use font-awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+
+    
+    
+    
+    <div class="main-container">
+        <header class="header">
+            <div class="logo">
+                <img src="logo (1).png" alt="">
+                <p class="fav">Favourites</p>
+            </div>
+            <div class="searchbox-container">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search"/>
+                    <i class="fas fa-microphone"></i>
+                </div>
+                <i class="fas bell fa-bell"></i>
+                <img src="profile-picture.jpg" alt="" class="profile-photo">
+            </div>
+        </header>
+
+        <div class="for-responsiveness">
+            <main>
+                <div class="carousel">
+                    <div id="slider">
+                        <input type="radio" name="slider" id="s1" checked >
+                        <input type="radio" name="slider" id="s2" >
+                        <input type="radio" name="slider" id="s3" >
+                        <input type="radio" name="slider" id="s4" >
+                        <input type="radio" name="slider" id="s5" >
+
+                        <div class="slide-img" id="one">
+                            <img src="list-media/img1.jpg" alt="">
+                            <label for="s5" class="prev"></label>
+                            <label for="s2" class="next"></label>
+                        </div>
+
+                        <div class="slide-img" id="two">
+                            <img src="list-media/img2.jpg" alt="">
+                            <label for="s1" class="prev"></label>
+                            <label for="s3" class="next"></label>
+                        </div>
+
+                        <div class="slide-img" id="three">
+                            <img src="list-media/img3.jpg" alt="">
+                            <label for="s2" class="prev"></label>
+                            <label for="s4" class="next"></label>
+                        </div>
+
+                        <div class="slide-img" id="four">
+                            <img src="list-media/img4.webp" alt="">
+                            <label for="s3" class="prev"></label>
+                            <label for="s5" class="next"></label>
+                        </div>
+
+                        <div class="slide-img" id="five">
+                            <img src="list-media/img5.png" alt="">
+                            <label for="s4" class="prev"></label>
+                            <label for="s1" class="next"></label>
+                        </div>
+
+                        <div class="navi">
+                            <span><label for="s1" id="dot1" class="dots"></label></span>
+                            <span><label for="s2" id="dot2" class="dots"></label></span>
+                            <span><label for="s3" id="dot3" class="dots"></label></span>
+                            <span><label for="s4" id="dot4" class="dots"></label></span>
+                            <span><label for="s5" id="dot5" class="dots"></label></span>
+                            
+                         
+                        </div>
+                        
+
+                        
+                    </div>
+                </div>
+
+                <div id="queue-1" class="queue-container white">
+                    <div class="queue-header">
+                        <p>Queue</p>
+                        <div class="queue-btn-container">
+
+                            <!-- here label is acting as a button for dropdown effect -->
+
+                            <label for="mycheckbox">Queue <span><i class="fas fa-angle-down"></i></span></label>
+                            <input type="checkbox" id="mycheckbox">
+
+                            <div class="queue-btn-dropdown">
+                                <a href="">Playlists</a>
+                                <hr>
+                                <a href="">Favourite songs</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="queue-elements-container">
+                        <div class="song-image-container">
+                            <p class="queue-number">01</p>
+                            <div class="image-container">
+                                <img src="" alt="">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div class="song-and-artist-container">
+                                <p class="queue-song-name">Kiss Me More</p>
+                                <p class="queue-artist-name">Dojo Cat </p>
+                            </div>
+                        </div>
+                        <span class="nav-link">
+                            <button><i class="far wishlist-icon fa-heart"></i></button>
+                        </span>
+                    </div>
+            </main>
+        </div>
+    </div>
+    
+</body>
+</html>
