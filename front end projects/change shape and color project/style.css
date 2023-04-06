@@ -1,0 +1,24 @@
+.outer {
+    width:40%;
+    height:40vw;
+    /* background-color:cyan; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+    margin-top:10%;
+}
+
+.inner{
+    width: 50%;
+    height:50%;
+    position:relative;
+    background-color:palegoldenrod;
+    border-radius: 50%;
+}
+
+.outer  button {
+    width:
+}
