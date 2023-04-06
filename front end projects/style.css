@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+}
+.outer {
+    display: flex;
+    background-color:inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width:30%;
+    margin:auto;
+    margin-top:10%;
+    text-align: center;;
+}
+
+.inner{
+    background-color: #cccccc;
+    height:30px;
+    position:relative;
+    width:70px;
+    border-radius: 20px;
+    vertical-align:baseline;
+    box-sizing: border-box;
+    padding:3px;
+}
+
+.toggler {
+    background-color:white;
+    float:left;
+    height:100%;
+    width:50%;
+
+    border-radius:inherit;
+}
