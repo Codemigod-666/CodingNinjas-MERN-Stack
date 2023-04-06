@@ -15,10 +15,49 @@
     width: 50%;
     height:50%;
     position:relative;
-    background-color:palegoldenrod;
+    background-color:purple;
     border-radius: 50%;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .outer  button {
-    width:
+    width: 200px;
+    height:40px;
+    font-weight: bolder;
+
+}
+
+.square {
+    height:50%;
+    width:50%;
+    background-color:rgb(239, 235, 235);
+    transition: all ease-in-out 0.2s;
+}
+
+.rectangle {
+    height: 70%;
+    width: 50%;
+    background-color: lightgrey;
+    transition: all ease-in-out0 0.2s;
+}
+
+.circle {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    background-color: lightgrey;
+    transition: all ease-in-out0 0.2s;
+}
+
+.triangle {
+    height:0px;
+    width:0px;
+    border-bottom: 100px solid white;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    transition: all ease-in-out 0.2s;
 }
