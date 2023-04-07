@@ -1,5 +1,5 @@
 
-"use  strict"
+// "use  strict"
 
 // const jsdom = require("jsdom");
 // const{ JSDOM } = jsdom;
@@ -11,7 +11,7 @@
 // value = "";
 // res.style.fontSize = "40px";
 
-
+    
 function insertValue(value){
     document.getElementById('result').value += value;
 }
