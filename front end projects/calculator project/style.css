@@ -27,13 +27,25 @@ h2{
     box-sizing: border-box;
 }
 
-.display-box {
+#display-box {
     width: 95%;
     min-height: 20%;
     background-color: rgb(253, 255, 255);
     margin-bottom:10px;
     margin-top: 5%;
     border-radius:1rem;
+    text-align:right;
+    box-sizing: border-box;
+}
+#display-box input[type="text"] {
+    margin-top:70px;
+    width: 100%;
+    height: 40px;
+    font-size: 40px;
+    text-align: right;
+    border: none;
+    outline: none;
+    padding-right: 10px;
     box-sizing: border-box;
 }
 

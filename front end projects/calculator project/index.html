@@ -15,44 +15,48 @@
         </div>
         
         <!-- the display of the calculator !! -->
-        <div class="display-box"></div>
+        <div id="display-box">
+            <input type="text" id="result" placeholder="0">
+        </div>
 
         <!-- the buttons of the calculator starts here -->
         <div class="line-one Arow">
-            <span class="button"><button>AC</button></span>
-            <span class="button"><button><-</button></span>
-            <span class="button"><button>+/-</button></span>
-            <span class="button "><button class="brown">/</button></span>
+            <span class="button"><button onclick="clearResult()">AC</button></span>
+            <span class="button"><button onclick="backSpace()"> <- </button></span>
+            <span class="button"><button onclick="signChange()">+/-</button></span>
+            <span class="button "><button class="brown" onclick="insertValue('/')">/</button></span>
         </div>
 
         <div class="line-two Arow">
-            <span class="button"><button>7</button></span>
-            <span class="button"><button>8</button></span>
-            <span class="button"><button>9</button></span>
-            <span class="button"><button class="brown">x</button></span>
+            <span class="button"><button onclick="insertValue('7')">7</button> </span>
+            <span class="button"><button onclick="insertValue('8')">8</button> </span>
+            <span class="button"><button onclick="insertValue('9')">9</button></span>
+            <span class="button"><button class="brown" onclick="insertValue('*')">x</button></span>
         </div>
         <div class="line-three Arow">
-            <span class="button"><button>4</button></span>
-            <span class="button"><button>5</button></span>
-            <span class="button"><button>6</button></span>
-            <span class="button"><button class="brown">-</button></span>
+            <span class="button"><button onclick="insertValue('4')">4</button></span>
+            <span class="button"><button onclick="insertValue('5')">5</button></span>
+            <span class="button"><button onclick="insertValue('6')">6</button></span>
+            <span class="button"><button class="brown" onclick="insertValue('-')">-</button></span>
         </div>
 
         <div class="line-four Arow">
-            <span class="button"><button>1</button></span>
-            <span class="button"><button>2</button></span>
-            <span class="button"><button>3</button></span>
-            <span class="button"><button class="brown">+</button></span>
+            <span class="button"><button onclick="insertValue('1')">1</button></span>
+            <span class="button"><button onclick="insertValue('2')">2</button></span>
+            <span class="button"><button onclick="insertValue('3')">3</button></span>
+            <span class="button"><button class="brown" onclick="insertValue('+')">+</button></span>
         </div>
 
         <div class="line-five Arow">
-            <span class="button"><button>%</button></span>
-            <span class="button"><button>0</button></span>
-            <span class="button"><button>.</button></span>
-            <span class="button"><button class="brown">=</button></span>
+            <span class="button"><button onclick="insertValue('%')">%</button></span>
+            <span class="button"><button onclick="insertValue('0')">0</button></span>
+            <span class="button"><button onclick="insertValue('.')">.</button></span>
+            <span class="button"><button class="brown" onclick="calculate()">=</button></span>
         </div>
        
     </div>
+
+    <script src="script.js"></script>
     
 </body>
 </html>
