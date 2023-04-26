@@ -1,11 +1,12 @@
 "use strict"
 
-const jsdom = require("jsdom");
-const { JSDOM } = jsdom;
-const dom = new JSDOM(`<!DOCTYPE html><html><body></body></html>`);
-const document = dom.window.document;
+// const jsdom = require("jsdom");
+// const { JSDOM } = jsdom;
+// const dom = new JSDOM(`<!DOCTYPE html><html><body></body></html>`);
+// const document = dom.window.document;
 
 var available_colors = [
+
     "red",
     "yellow",
     "green",
